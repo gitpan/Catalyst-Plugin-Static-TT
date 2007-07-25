@@ -15,11 +15,11 @@ Catalyst::Plugin::Static::TT - generate 'static' content with TT
 
 =head1 VERSION
 
-Version 0.001
+Version 0.002
 
 =cut
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 =head1 SYNOPSIS
 

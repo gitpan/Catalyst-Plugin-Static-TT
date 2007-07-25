@@ -12,6 +12,7 @@ BEGIN { use_ok( $m = "Catalyst::Plugin::Static::TT" ) }
 my $c = Test::MockObject::Extends->new($m);
 
 $c->set_always( config => my $config = {} );
+$c->set_always( debug  => 0 );
 
 my @compiled;
 $c->mock(
